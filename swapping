@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+	int X=10,Y=5;
+	X=X+Y;
+	Y=X-Y;
+	X=X-Y;
+	printf("after swapping: X=%d,Y=%d",X,Y);
+	return 0;
+}
